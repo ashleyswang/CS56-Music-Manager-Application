@@ -15,7 +15,7 @@ public class MusicLibraryUI{
 		System.out.println("Enter Command");
 		while(true) {
 			String command = s.nextLine();
-			if(command == "D" || command == "W" || command == "d" || command =="w"){
+			if(command.equalsIgnoreCase("w") || command.equalsIgnoreCase("d")){
 				s.close();
 				return command;
 			}
@@ -29,7 +29,7 @@ public class MusicLibraryUI{
 		System.out.println("Enter Command");
 		while(true) {
 			String command = s.nextLine();
-			if(command == "A" || command == "T" || command == "Q" || command =="a" || command =="t" || command =="q"){
+			if(command.equalsIgnoreCase("a") || command.equalsIgnoreCase("t") || command.equalsIgnoreCase("q")){
 				s.close();
 				return command;
 			}

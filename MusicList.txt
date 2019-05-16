@@ -1,0 +1,266 @@
+Young Lust;4:20;Aerosmith;Pump;1989;V;33
+F.I.N.E.;4:10;Aerosmith;Pump;1989;V;33
+Going Down / Love In An Elevator;5:39;Aerosmith;Pump;1989;V;33
+Monkey On My Back;3:58;Aerosmith;Pump;1989;V;33
+Water Song / Janie's Got A Gun;5:33;Aerosmith;Pump;1989;V;33
+Dulcimer Stomp / The Other Side;4:57;Aerosmith;Pump;1989;V;33
+My Girl;3:10;Aerosmith;Pump;1989;V;33
+Don't Get Mad Get Even;4:49;Aerosmith;Pump;1989;V;33
+Hoodoo / Voodoo Medicine Man;4:39;Aerosmith;Pump;1989;V;33
+What It Takes;6:30;Aerosmith;Pump;1989;V;33
+Black Mirror;4:13;Arcade Fire;Neon Bible;2017;D;1411
+Keep The Car Running;3:29;Arcade Fire;Neon Bible;2017;D;1411
+Neon Bible;2:17;Arcade Fire;Neon Bible;2017;D;1411
+Intervention;4:19;Arcade Fire;Neon Bible;2017;D;1411
+Black Wave / Bad Vibrations;3:58;Arcade Fire;Neon Bible;2017;D;1411
+Ocean Of Noise;4:54;Arcade Fire;Neon Bible;2017;D;1411
+The Well And The Lighthouse;3:57;Arcade Fire;Neon Bible;2017;D;1411
+Antichrist Television Blues;5:10;Arcade Fire;Neon Bible;2017;D;1411
+Windowsill;4:16;Arcade Fire;Neon Bible;2017;D;1411
+No Cars Go;5:44;Arcade Fire;Neon Bible;2017;D;1411
+My Body Is A Cage;4:47;Arcade Fire;Neon Bible;2017;D;1411
+Rhymin & Stealin;4:09;The Beastie Boys;Licensed To Ill;1995;V;45
+The New Style;4:36;The Beastie Boys;Licensed To Ill;1995;V;45
+She's Crafty;3:35;The Beastie Boys;Licensed To Ill;1995;V;45
+Posse In Effect;2:26;The Beastie Boys;Licensed To Ill;1995;V;45
+Slow Ride;2:57;The Beastie Boys;Licensed To Ill;1995;V;45
+Girls;2:14;The Beastie Boys;Licensed To Ill;1995;V;45
+Fight For Your Right;3:27;The Beastie Boys;Licensed To Ill;1995;V;45
+No Sleep Till Brooklyn;4:07;The Beastie Boys;Licensed To Ill;1995;V;45
+Paul Revere;3:41;The Beastie Boys;Licensed To Ill;1995;V;45
+Hold It Now Hit It;3:26;The Beastie Boys;Licensed To Ill;1995;V;45
+Brass Monkey;2:37;The Beastie Boys;Licensed To Ill;1995;V;45
+Slow And Low;3:38;The Beastie Boys;Licensed To Ill;1995;V;45
+Time To Get Ill;3:37;The Beastie Boys;Licensed To Ill;1995;V;45
+Don't Panic;2:17;Coldplay;Parachutes;2000;D;320
+Shiver;5:00;Coldplay;Parachutes;2000;D;320
+Spies;5:19;Coldplay;Parachutes;2000;D;320
+Sparks;3:47;Coldplay;Parachutes;2000;D;320
+Yellow;4:29;Coldplay;Parachutes;2000;D;320
+Trouble;4:31;Coldplay;Parachutes;2000;D;320
+Parachutes;0:46;Coldplay;Parachutes;2000;D;320
+High Speed;4:14;Coldplay;Parachutes;2000;D;320
+We Never Change;4:09;Coldplay;Parachutes;2000;D;320
+Everything's Not Lost;7:16;Coldplay;Parachutes;2000;D;320
+Square One;4:47;Coldplay;X&Y;2005;D;9216
+What If;4:57;Coldplay;X&Y;2005;D;9216
+White Shadows;5:28;Coldplay;X&Y;2005;D;9216
+Fix You;4:55;Coldplay;X&Y;2005;D;9216
+Talk;5:11;Coldplay;X&Y;2005;D;9216
+X&Y;4:34;Coldplay;X&Y;2005;D;9216
+Speed Of Sound;4:48;Coldplay;X&Y;2005;D;9216
+A Message;4:45;Coldplay;X&Y;2005;D;9216
+Low;5:32;Coldplay;X&Y;2005;D;9216
+The Hardest Part;4:25;Coldplay;X&Y;2005;D;9216
+Swallowed In The Sea;3:59;Coldplay;X&Y;2005;D;9216
+Twisted Logic;5:02;Coldplay;X&Y;2005;D;9216
+Kingdom Come;4:11;Coldplay;X&Y;2005;D;9216
+Doll;1:23;Foo Fighters;The Colour and the Shape;1997;V;45
+Monkey Wrench;3:51;Foo Fighters;The Colour and the Shape;1997;V;45
+Hey Johnny Park!;4:08;Foo Fighters;The Colour and the Shape;1997;V;45
+My Poor Brain;3:33;Foo Fighters;The Colour and the Shape;1997;V;45
+Wind Up;2:32;Foo Fighters;The Colour and the Shape;1997;V;45
+Up in Arms;2:16;Foo Fighters;The Colour and the Shape;1997;V;45
+My Hero;4:20;Foo Fighters;The Colour and the Shape;1997;V;45
+See You;2:27;Foo Fighters;The Colour and the Shape;1997;V;45
+Enough Space;2:37;Foo Fighters;The Colour and the Shape;1997;V;45
+February Stars;4:49;Foo Fighters;The Colour and the Shape;1997;V;45
+Everlong;4:11;Foo Fighters;The Colour and the Shape;1997;V;45
+Walking After You;5:04;Foo Fighters;The Colour and the Shape;1997;V;45
+New Way Home;5:42;Foo Fighters;The Colour and the Shape;1997;V;45
+This Is a Call;3:53;Foo Fighters;Foo Fighters;1995;V;33
+I'll Stick Around;3:53;Foo Fighters;Foo Fighters;1995;V;33
+Big Me;2:13;Foo Fighters;Foo Fighters;1995;V;33
+Alone + Easy Target;4:05;Foo Fighters;Foo Fighters;1995;V;33
+Good Grief;4:01;Foo Fighters;Foo Fighters;1995;V;33
+Floaty;4:30;Foo Fighters;Foo Fighters;1995;V;33
+Weenie Beenie;2:46;Foo Fighters;Foo Fighters;1995;V;33
+Oh George;3:01;Foo Fighters;Foo Fighters;1995;V;33
+For All the Cows;3:30;Foo Fighters;Foo Fighters;1995;V;33
+X-Static;4:13;Foo Fighters;Foo Fighters;1995;V;33
+Wattershed;2:16;Foo Fighters;Foo Fighters;1995;V;33
+Exhausted;5:51;Foo Fighters;Foo Fighters;1995;V;33
+Bridge Burning;4:46;Foo Fighters;Wasting Light;2011;D;320
+Rope;4:19;Foo Fighters;Wasting Light;2011;D;320
+Dear Rosemary;4:26;Foo Fighters;Wasting Light;2011;D;320
+White Limo;3:22;Foo Fighters;Wasting Light;2011;D;320
+Arlandria;4:27;Foo Fighters;Wasting Light;2011;D;320
+These Days;4:58;Foo Fighters;Wasting Light;2011;D;320
+Back & Forth;3:52;Foo Fighters;Wasting Light;2011;D;320
+A Matter Of Time;4:36;Foo Fighters;Wasting Light;2011;D;320
+Miss The Misery;4:31;Foo Fighters;Wasting Light;2011;D;320
+I Should Have Know;4:15;Foo Fighters;Wasting Light;2011;D;320
+Walk;4:16;Foo Fighters;Wasting Light;2011;D;320
+Intro;1:03;Gorillaz;Demon Days;2005;D;1411
+Last Living Souls;3:10;Gorillaz;Demon Days;2005;D;1411
+Kids With Guns;3:46;Gorillaz;Demon Days;2005;D;1411
+O Green World;4:32;Gorillaz;Demon Days;2005;D;1411
+Dirty Harry;3:44;Gorillaz;Demon Days;2005;D;1411
+Feel Good Inc.;3:41;Gorillaz;Demon Days;2005;D;1411
+El Manana;3:50;Gorillaz;Demon Days;2005;D;1411
+Every Planet We Reach Is Dead;4:53;Gorillaz;Demon Days;2005;D;1411
+November Has Come;2:41;Gorillaz;Demon Days;2005;D;1411
+All Alone;3:30;Gorillaz;Demon Days;2005;D;1411
+White Light;2:08;Gorillaz;Demon Days;2005;D;1411
+DARE;4:04;Gorillaz;Demon Days;2005;D;1411
+Fire Coming Out Of The Monkey's Head;3:16;Gorillaz;Demon Days;2005;D;1411
+Don't Get Lost In Heaven;2:00;Gorillaz;Demon Days;2005;D;1411
+Demon Days;4:29;Gorillaz;Demon Days;2005;D;1411
+Re-Hash;3:38;Gorillaz;Gorillaz;2001;D;9216
+Tomorrow Comes Today;3:13;Gorillaz;Gorillaz;2001;D;9216
+New Genious (Brother);3:58;Gorillaz;Gorillaz;2001;D;9216
+Clint Eastwood;5:42;Gorillaz;Gorillaz;2001;D;9216
+Man Research (Clapper);4:30;Gorillaz;Gorillaz;2001;D;9216
+Punk;1:36;Gorillaz;Gorillaz;2001;D;9216
+Sound Check (Gravity);4:41;Gorillaz;Gorillaz;2001;D;9216
+Double Bass;4:45;Gorillaz;Gorillaz;2001;D;9216
+Rock The House;4:09;Gorillaz;Gorillaz;2001;D;9216
+Latin Simone;3:37;Gorillaz;Gorillaz;2001;D;9216
+Starshine;3:32;Gorillaz;Gorillaz;2001;D;9216
+Slow Country;3:36;Gorillaz;Gorillaz;2001;D;9216
+Radioactive;3:07;Imagine Dragons;Night Visions;2012;D;320
+Tiptoe;3:14;Imagine Dragons;Night Visions;2012;D;320
+It's Time;4:00;Imagine Dragons;Night Visions;2012;D;320
+Demons;2:58;Imagine Dragons;Night Visions;2012;D;320
+On Top Of The World;3:12;Imagine Dragons;Night Visions;2012;D;320
+Amsterdam;4:02;Imagine Dragons;Night Visions;2012;D;320
+Hear Me;3:55;Imagine Dragons;Night Visions;2012;D;320
+Every Night;3:37;Imagine Dragons;Night Visions;2012;D;320
+Bleeding Out;3:43;Imagine Dragons;Night Visions;2012;D;320
+Underdog;3:30;Imagine Dragons;Night Visions;2012;D;320
+Nothing Left To Say / Rocks;8:57;Imagine Dragons;Night Visions;2012;D;320
+Cha-Ching (Till We Grow Older);4:10;Imagine Dragons;Night Visions;2012;D;320
+Working Man;3:55;Imagine Dragons;Night Visions;2012;D;320
+Everyday I Love You Less And Less;3:38;Kaiser Chiefs;Employment;2005;D;1411
+I Predict A Riot;3:53;Kaiser Chiefs;Employment;2005;D;1411
+Modern Way;4:04;Kaiser Chiefs;Employment;2005;D;1411
+Na Na Na Na Naa;3:01;Kaiser Chiefs;Employment;2005;D;1411
+You Can Have It All;4:36;Kaiser Chiefs;Employment;2005;D;1411
+Oh My God;3:35;Kaiser Chiefs;Employment;2005;D;1411
+Born To Be A Dancer;3:31;Kaiser Chiefs;Employment;2005;D;1411
+Saturday Night;3:28;Kaiser Chiefs;Employment;2005;D;1411
+What Did I Ever Give You?;4:09;Kaiser Chiefs;Employment;2005;D;1411
+Time Honoured Tradition;2:45;Kaiser Chiefs;Employment;2005;D;1411
+Caroline;4:13;Kaiser Chiefs;Employment;2005;D;1411
+Team Mate;3:24;Kaiser Chiefs;Employment;2005;D;1411
+We Stay Together;4:33;Kaiser Chiefs;Stay Together;2016;D;1411
+Hole In My Soul;4:28;Kaiser Chiefs;Stay Together;2016;D;1411
+Parachutes;3:53;Kaiser Chiefs;Stay Together;2016;D;1411
+Good Clean Fun;5:08;Kaiser Chiefs;Stay Together;2016;D;1411
+Why Do You Do It To Me?;4:26;Kaiser Chiefs;Stay Together;2016;D;1411
+Indoor Firework;3:57;Kaiser Chiefs;Stay Together;2016;D;1411
+Press Rewind;5:02;Kaiser Chiefs;Stay Together;2016;D;1411
+Happen In A Heartbeat;3:21;Kaiser Chiefs;Stay Together;2016;D;1411
+High Society;3:48;Kaiser Chiefs;Stay Together;2016;D;1411
+Sunday Morning;4:30;Kaiser Chiefs;Stay Together;2016;D;1411
+Still Waiting;8:42;Kaiser Chiefs;Stay Together;2016;D;1411
+Intro;0:22;Muse;Absolution;2003;D;320
+Apocalypse please;4:13;Muse;Absolution;2003;D;320
+Time is running out;3:56;Muse;Absolution;2003;D;320
+Sing for absolution;4:55;Muse;Absolution;2003;D;320
+Stockholm syndrome;4:59;Muse;Absolution;2003;D;320
+Falling away with you;4:41;Muse;Absolution;2003;D;320
+Interlude;0:38;Muse;Absolution;2003;D;320
+Hysteria;3:48;Muse;Absolution;2003;D;320
+Blackout;4:22;Muse;Absolution;2003;D;320
+Butterflies and hurricanes;5:02;Muse;Absolution;2003;D;320
+Tsp;3:29;Muse;Absolution;2003;D;320
+Endlessly;3:49;Muse;Absolution;2003;D;320
+Thoughts of a dying atheist;3:11;Muse;Absolution;2003;D;320
+Ruled by secrely;4:52;Muse;Absolution;2003;D;320
+Take a Bow;4:40;Muse;Black Holes and Revelations;2006;D;9216
+Starlight;4:00;Muse;Black Holes and Revelations;2006;D;9216
+Supermassive Black Hole;3:29;Muse;Black Holes and Revelations;2006;D;9216
+Map of the Problematique;4:19;Muse;Black Holes and Revelations;2006;D;9216
+Soldier's Poem;2:10;Muse;Black Holes and Revelations;2006;D;9216
+Invincible;4:54;Muse;Black Holes and Revelations;2006;D;9216
+Assasin;3:31;Muse;Black Holes and Revelations;2006;D;9216
+Exo-Politics;3:54;Muse;Black Holes and Revelations;2006;D;9216
+City of Delusion;4:49;Muse;Black Holes and Revelations;2006;D;9216
+Hoodoo;3:43;Muse;Black Holes and Revelations;2006;D;9216
+Knights of Cydonia;6:04;Muse;Black Holes and Revelations;2006;D;9216
+Rock N Roll Star;5:23;Oasis;Definitely Maybe;1994;V;45
+Shakermaker;5:09;Oasis;Definitely Maybe;1994;V;45
+Live Forever;4:37;Oasis;Definitely Maybe;1994;V;45
+Up In The Sky;4:29;Oasis;Definitely Maybe;1994;V;45
+Columbia;6:17;Oasis;Definitely Maybe;1994;V;45
+Supersonic;4:44;Oasis;Definitely Maybe;1994;V;45
+Bring It On Down;4:18;Oasis;Definitely Maybe;1994;V;45
+Cigarettes & Alcohol;4:49;Oasis;Definitely Maybe;1994;V;45
+Digsy's Dinner;2:32;Oasis;Definitely Maybe;1994;V;45
+Slide Away;6:33;Oasis;Definitely Maybe;1994;V;45
+Married With Children;3:13;Oasis;Definitely Maybe;1994;V;45
+Upside Down & Inside Out;3:08;OK Go;Hungry Ghosts;2014;D;320
+The Writing's On the Wall;3:33;OK Go;Hungry Ghosts;2014;D;320
+Another Set of Issues;3:58;OK Go;Hungry Ghosts;2014;D;320
+Turn Up the Radio;2:56;OK Go;Hungry Ghosts;2014;D;320
+Obsession;3:08;OK Go;Hungry Ghosts;2014;D;320
+I'm Not Through;3:36;OK Go;Hungry Ghosts;2014;D;320
+Bright As Your Eyes;2:55;OK Go;Hungry Ghosts;2014;D;320
+I Won't Let You Down;3:43;OK Go;Hungry Ghosts;2014;D;320
+The One Moment;3:43;OK Go;Hungry Ghosts;2014;D;320
+If I Had a Mountain;3:19;OK Go;Hungry Ghosts;2014;D;320
+The Great Fire;4:17;OK Go;Hungry Ghosts;2014;D;320
+Lullaby;3:42;OK Go;Hungry Ghosts;2014;D;320
+Is This It;2:35;The Strokes;Is This It;2001;V;33
+The Modern Age;3:32;The Strokes;Is This It;2001;V;33
+Soma;2:37;The Strokes;Is This It;2001;V;33
+Barely Legal;4:39;The Strokes;Is This It;2001;V;33
+Someday;3:07;The Strokes;Is This It;2001;V;33
+Alone Together;3:11;The Strokes;Is This It;2001;V;33
+Last Nite;3:17;The Strokes;Is This It;2001;V;33
+Hard To Explain;3:47;The Strokes;Is This It;2001;V;33
+New York City Cops;3:40;The Strokes;Is This It;2001;V;33
+Trying Your Luck;3:27;The Strokes;Is This It;2001;V;33
+Take It Or Leave It;2:43;The Strokes;Is This It;2001;V;33
+What Ever Happened?;2:52;The Strokes;Room On Fire;2003;D;1411
+Reptilia;3:41;The Strokes;Room On Fire;2003;D;1411
+Automatic Stop;3:29;The Strokes;Room On Fire;2003;D;1411
+You Talk Way Too Much;3:02;The Strokes;Room On Fire;2003;D;1411
+Between Love & Hate;3:12;The Strokes;Room On Fire;2003;D;1411
+Meet Me In The Bathroom;2:56;The Strokes;Room On Fire;2003;D;1411
+Under Control;3:04;The Strokes;Room On Fire;2003;D;1411
+The Way It Is;2:23;The Strokes;Room On Fire;2003;D;1411
+The End Has No End;3:07;The Strokes;Room On Fire;2003;D;1411
+I Can't Win;2:36;The Strokes;Room On Fire;2003;D;1411
+Heavydirtysoul;3:55;Twenty One Pilots;Blurryface;2015;D;1411
+Stressed Out;3:22;Twenty One Pilots;Blurryface;2015;D;1411
+Ride;3:35;Twenty One Pilots;Blurryface;2015;D;1411
+Fairly Local;3:27;Twenty One Pilots;Blurryface;2015;D;1411
+Tear In My Heart;3:08;Twenty One Pilots;Blurryface;2015;D;1411
+Lane Boy;4:13;Twenty One Pilots;Blurryface;2015;D;1411
+The Judge;4:58;Twenty One Pilots;Blurryface;2015;D;1411
+Doubt;3:11;Twenty One Pilots;Blurryface;2015;D;1411
+Polarize;3:47;Twenty One Pilots;Blurryface;2015;D;1411
+We Don't Believe What's On TV;2:57;Twenty One Pilots;Blurryface;2015;D;1411
+Message Man;4:00;Twenty One Pilots;Blurryface;2015;D;1411
+Hometown;3:55;Twenty One Pilots;Blurryface;2015;D;1411
+Not Today;3:58;Twenty One Pilots;Blurryface;2015;D;1411
+Goner;3:57;Twenty One Pilots;Blurryface;2015;D;1411
+You're Pretty Good Looking;1:50;The White Stripes;De Stijl;2010;D;320
+Hello Operator;2:36;The White Stripes;De Stijl;2010;D;320
+Little Bird;3:20;The White Stripes;De Stijl;2010;D;320
+Apple Blossom;2:13;The White Stripes;De Stijl;2010;D;320
+I'm Bound to Pack it Up;3:10;The White Stripes;De Stijl;2010;D;320
+Death Letter;4:30;The White Stripes;De Stijl;2010;D;320
+Sister Do You Know My Name?;2:52;The White Stripes;De Stijl;2010;D;320
+Truth Doesn't Make A Noise;3:15;The White Stripes;De Stijl;2010;D;320
+A Boy's Best Friend;4:22;The White Stripes;De Stijl;2010;D;320
+Let's Build A Home;1:58;The White Stripes;De Stijl;2010;D;320
+Jumble Jumble;1:54;The White Stripes;De Stijl;2010;D;320
+Why Can't You Be Nicer To Me?;3:22;The White Stripes;De Stijl;2010;D;320
+Your Southern Can Is Mine;2:29;The White Stripes;De Stijl;2010;D;320
+Seven Nation Army;3:52;The White Stripes;Elephant;2008;D;320
+Black Math;3:04;The White Stripes;Elephant;2008;D;320
+There's No Home for you here;3:44;The White Stripes;Elephant;2008;D;320
+I Just Don't Know What to do with Myself;2:47;The White Stripes;Elephant;2008;D;320
+In the Cold Cold Night;2:58;The White Stripes;Elephant;2008;D;320
+I Want to be the Boy;3:21;The White Stripes;Elephant;2008;D;320
+You've Got Her in Your Pocket;3:40;The White Stripes;Elephant;2008;D;320
+Ball & Biscuit;7:19;The White Stripes;Elephant;2008;D;320
+The Hardest Button to Button;3:32;The White Stripes;Elephant;2008;D;320
+Little Acorns;4:09;The White Stripes;Elephant;2008;D;320
+Hypnotise;1:49;The White Stripes;Elephant;2008;D;320
+The Air Near My Fingers;3:40;The White Stripes;Elephant;2008;D;320
+Girl You Have No Faith in Medicine;3:18;The White Stripes;Elephant;2008;D;320
+It's True that We Love One Another;2:42;The White Stripes;Elephant;2008;D;320
