@@ -5,13 +5,14 @@ import java.io.File;
 
 public class OutputFile implements OutputFileInterface{
 
+	PrintWriter out;
 
 	public void open(String outputFileName){
 	// use a PrintWriter object to write info to a outputFileName
 	File file = new File(outputFileName);
 	try{
-		 PrintWriter out = new PrintWriter(outputFileName);
-		 out.format("%-40s %-40s %-40s %-7s %-5s %-40s", 
+		out = new PrintWriter(outputFileName);
+		out.format("%-40s %-40s %-40s %-7s %-5s %-40s", 
 		 			"TITLE", "ARTIST","ALBUM", "LENGTH",
 		 			"YEAR", "ADDITIONAL_INFO");
 	}
