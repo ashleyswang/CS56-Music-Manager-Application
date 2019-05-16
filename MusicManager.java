@@ -118,8 +118,23 @@ public class MusicManager{
 
 	private void outputToFile(String choice){
 		// if choice A output artistOutput.txt
-		// 
-
+		OutputFile outputFile = new OutputFile();
+		ArrayList<ArrayList<MusicTrack>> outputBucket;
+		if(choice.equalsIgnoreCase("a")){
+			outputFile.open("artistOutput.txt");
+			outputBucket = artistList.getBuckets();
+		}
+		else{
+			outputFile.open("titleOutput.txt");
+			outputBucket = tracksList.getBuckets();
+		}
+		for(int i = 0; i < outputBucket.size(); i++){
+			ArrayList<MusicTrack> tracks = outputBucket.get(i);
+			for(int j = 0; j < tracks.size(); j++){
+				outputFile.writeItem(tracks.get(j));
+			}
+		}
+		outputFile.close();
 	}
 
 	public void start(){
@@ -132,13 +147,9 @@ public class MusicManager{
 
 		MusicLibraryUI.printSecond();
 		String choice2 = MusicLibraryUI.getSecondCommand();
-		if(choice2 == "A" || choice2 == "a"){
-
-		}
-		else{
-
-		}
-		
+		while(!(choice2.equalsIgnoreCase("q"))){
+			this.outputToFile(choice2);
+		}	
 
 	}
 
