@@ -2,11 +2,11 @@
 
 public abstract class MusicTrack implements MusicTrackInterface{
 	
-	private String title;
-	private String length;
-	private String artist;
-	private String album;
-	private int year;
+	protected String title;
+	protected String length;
+	protected String artist;
+	protected String album;
+	protected int year;
 
 	// Constructors
 	public MusicTrack() { /* do nothing */ };

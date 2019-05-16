@@ -20,5 +20,13 @@ public class DigitalTrack extends MusicTrack{
 
 	// Getters
 	public String getAdditionalInfo(){ return (formatType+" "+bitRate); }
+	public void printTrack(){
+		System.out.print(title  + " ");
+		System.out.print(length + " "); 
+		System.out.print(artist + " ");
+		System.out.print(album  + " ");
+		System.out.print(year   + " "); 
+		System.out.println("D " + bitRate);
+	}
 
 }

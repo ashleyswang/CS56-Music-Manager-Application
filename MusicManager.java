@@ -51,64 +51,81 @@ public class MusicManager{
 				infile = new Scanner(connection.getInputStream());
 			}
 
-			infile.useDelimiter(";");
+			String trackInfo;
+			while(infile.hasNextLine()){
+				trackInfo = infile.nextLine();
+				Scanner trackAttributes = new Scanner(trackInfo);
 
-			int attributeCounter = 1;
-			String attribute;
+				trackAttributes.useDelimiter(";");
 
-			String tempTitle = "";
-			String tempLength = "";
-			String tempArtist = "";
-			String tempAlbum = "";
-			int tempYear = 0;
-			String tempType = "";
-			String tempAdditionalInfo = "";
+				// making the track object
+				int attributeCounter = 1;
+				String attribute;
 
-			while(infile.hasNext()){
-				attribute = infile.next();
-				switch (attributeCounter){
-					case 1: // set title
-							tempTitle = attribute;
-							attributeCounter++;
-							break;
-					case 2: // set length
-							tempLength = attribute;
-							attributeCounter++;
-							break;
-					case 3: // set artist name
-							tempArtist = attribute;
-							attributeCounter++;
-							break;
-					case 4: // set album
-							tempAlbum = attribute;
-							attributeCounter++;
-							break;
-					case 5: // set year
-							tempYear = Integer.parseInt(attribute);
-							attributeCounter++;
-							break;
-					case 6: // set type
-							tempType = attribute;
-							attributeCounter++;
-							break;
-					case 7: // set additional information
-							tempAdditionalInfo = attribute;
-							attributeCounter=0;
-							break;
+				String tempTitle = "";
+				String tempLength = "";
+				String tempArtist = "";
+				String tempAlbum = "";
+				int tempYear = 0;
+				String tempType = "";
+				String tempAdditionalInfo = "";
+
+				while(trackAttributes.hasNext()){
+					attribute = trackAttributes.next();
+					
+					switch (attributeCounter){
+						case 1: // set title
+								//System.out.println(attribute);
+								tempTitle = attribute;
+								attributeCounter++;
+								break;
+						case 2: // set length
+								//System.out.println(attribute);
+								tempLength = attribute;
+								attributeCounter++;
+								break;
+						case 3: // set artist name
+								//System.out.println(attribute);
+								tempArtist = attribute;
+								attributeCounter++;
+								break;
+						case 4: // set album
+								//System.out.println(attribute);
+								tempAlbum = attribute;
+								attributeCounter++;
+								break;
+						case 5: // set year
+								//System.out.println(attribute);
+								tempYear = Integer.parseInt(attribute);
+								attributeCounter++;
+								break;
+						case 6: // set type
+								//System.out.println(attribute);
+								tempType = attribute;
+								attributeCounter++;
+								break;
+						case 7: // set additional information
+								//System.out.println(attribute);
+								tempAdditionalInfo = attribute;
+								break;
+					}
 				}
-				
+
 				if (tempType.equals("D")){
 					DigitalTrack newTrack = new DigitalTrack(tempTitle, tempLength, tempArtist,
 												tempAlbum, tempYear, tempAdditionalInfo);
 					artistList.addItem(newTrack);
 					tracksList.addItem(newTrack);
+					newTrack.printTrack();
 				}
 				if (tempType.equals("V")){
 					VinylTrack newTrack = new VinylTrack(	tempTitle, tempLength, tempArtist,
 												tempAlbum, tempYear, tempAdditionalInfo);
 					artistList.addItem(newTrack);
 					tracksList.addItem(newTrack);
+					newTrack.printTrack();
 				}
+				System.out.println("Added "+tempTitle);
 
 			}
 		} catch (IOException e) {

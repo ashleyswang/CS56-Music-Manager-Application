@@ -8,7 +8,10 @@ public class TitleBucket implements BucketInterface{
 
 
 	public TitleBucket(){
-		titleBucket = new ArrayList<ArrayList<MusicTrack>>(26);
+		titleBucket = new ArrayList<ArrayList<MusicTrack>>();
+		for (int i=0; i<26; i++){
+			titleBucket.add(new ArrayList<MusicTrack>());
+		}
 	}
 
 	public void addItem(MusicTrack itemToAdd){
@@ -22,25 +25,29 @@ public class TitleBucket implements BucketInterface{
 
 		// compare elements within that arraylist and add into that arraylist in order
 		int innerBucketIndex = 0;
-		// while lexicographically name to be added is greater than the checked index
-		while (trackName.compareTo(innerBucket.get(innerBucketIndex).getTitle()) > 0 ){
-			innerBucketIndex++;
-		}
-
-		String addedArtistName = (itemToAdd.getArtist()).toLowerCase();
-		while (trackName.compareTo(innerBucket.get(innerBucketIndex).getTitle().toLowerCase()) == 0){
-
-			if (addedArtistName.compareTo(innerBucket.get(innerBucketIndex).getArtist().toLowerCase()) < 0){
-				innerBucket.add(innerBucketIndex, itemToAdd);
-				break;
-			} else {
+		if(innerBucket.size() != 0){
+			// while lexicographically name to be added is greater than the checked index
+			while (trackName.compareTo(innerBucket.get(innerBucketIndex).getTitle()) > 0 ){
 				innerBucketIndex++;
 			}
-		}
-		
-		if (trackName.compareTo(innerBucket.get(innerBucketIndex).getTitle().toLowerCase()) < 0){
-			// add at the index itemToAdd, will shift all subsequent elements one element down
-			innerBucket.add(innerBucketIndex, itemToAdd);
+
+			String addedArtistName = (itemToAdd.getArtist()).toLowerCase();
+			while (trackName.compareTo(innerBucket.get(innerBucketIndex).getTitle().toLowerCase()) == 0){
+
+				if (addedArtistName.compareTo(innerBucket.get(innerBucketIndex).getArtist().toLowerCase()) < 0){
+					innerBucket.add(innerBucketIndex, itemToAdd);
+					break;
+				} else {
+					innerBucketIndex++;
+				}
+			}
+			
+			if (trackName.compareTo(innerBucket.get(innerBucketIndex).getTitle().toLowerCase()) < 0){
+				// add at the index itemToAdd, will shift all subsequent elements one element down
+				innerBucket.add(innerBucketIndex, itemToAdd);
+			}
+		} else {
+			innerBucket.add(itemToAdd);
 		}
 	}
 	
