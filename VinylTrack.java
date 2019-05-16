@@ -1,6 +1,6 @@
 // VinylTrack.java
 
-public abstract class VinylTrack extends MusicTrack{
+public class VinylTrack extends MusicTrack{
 
 	private String formatType = "Vinyl"; 
 	private String diskRPM;

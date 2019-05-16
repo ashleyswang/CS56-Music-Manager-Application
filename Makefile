@@ -4,7 +4,7 @@ buckets:
 	javac ArtistBucket.java TitleBucket.java
 
 manager: 
-	javac MusicManager.java
+	javac MusicManager.java MusicLibraryUI.java
 
 output: 
 	javac OutputFile.java

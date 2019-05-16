@@ -6,6 +6,8 @@ import java.net.URLConnection;
 import java.io.IOException;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
 
 public class MusicManager{
 
@@ -16,6 +18,7 @@ public class MusicManager{
 	public MusicManager(){
 		artistList = new ArtistBucket();
 		tracksList = new TitleBucket();
+	}
 
 	/* Once all of the music track data is imported and organized in your 
 	application, the application will prompt the user to write the 
@@ -34,33 +37,112 @@ public class MusicManager{
 	wants to sort the music library based on the Track name.
 
 	*/ 
+	
+	private void inputFromInfile(String choice){
+		try{
+			Scanner infile;
+			if (choice.toLowerCase().equals("d"))
+				infile = new Scanner(new File("MusicList.txt"));
+			else{
+				URL remoteFileLocation =
+        			new URL("https://sites.cs.ucsb.edu/~richert/cs56/misc/lab04/MusicList.txt");
+
+       			URLConnection connection = remoteFileLocation.openConnection();
+				infile = new Scanner(connection.getInputStream());
+			}
+
+			infile.useDelimiter(";");
+
+			int attributeCounter = 1;
+			String attribute;
+
+			String tempTitle = "";
+			String tempLength = "";
+			String tempArtist = "";
+			String tempAlbum = "";
+			int tempYear = 0;
+			String tempType = "";
+			String tempAdditionalInfo = "";
+
+			while(infile.hasNext()){
+				attribute = infile.next();
+				switch (attributeCounter){
+					case 1: // set title
+							tempTitle = attribute;
+							attributeCounter++;
+							break;
+					case 2: // set length
+							tempLength = attribute;
+							attributeCounter++;
+							break;
+					case 3: // set artist name
+							tempArtist = attribute;
+							attributeCounter++;
+							break;
+					case 4: // set album
+							tempAlbum = attribute;
+							attributeCounter++;
+							break;
+					case 5: // set year
+							tempYear = Integer.parseInt(attribute);
+							attributeCounter++;
+							break;
+					case 6: // set type
+							tempType = attribute;
+							attributeCounter++;
+							break;
+					case 7: // set additional information
+							tempAdditionalInfo = attribute;
+							attributeCounter=0;
+							break;
+				}
+				
+				if (tempType.equals("D")){
+					DigitalTrack newTrack = new DigitalTrack(tempTitle, tempLength, tempArtist,
+												tempAlbum, tempYear, tempAdditionalInfo);
+					artistList.addItem(newTrack);
+					tracksList.addItem(newTrack);
+				}
+				if (tempType.equals("V")){
+					VinylTrack newTrack = new VinylTrack(	tempTitle, tempLength, tempArtist,
+												tempAlbum, tempYear, tempAdditionalInfo);
+					artistList.addItem(newTrack);
+					tracksList.addItem(newTrack);
+				}
+
+			}
+		} catch (IOException e) {
+			e.toString();
+		}
+	}
+
+	private void outputToFile(String choice){
+		// if choice A output artistOutput.txt
+		// 
+
+	}
 
 	public void start(){
 		/* the part that gets the file from the user */
-		Scanner input = new Scanner(System.in);
 		System.out.println("Welcome to the Music Library Application!");
 		MusicLibraryUI.printFirst();
-		String choice = MusicLibraryUI.getFirstCommand();
-		if(choice == "D" || choice == "d"){
-			try{
 
-			}
-		}
-		else{
+		String choice1 = MusicLibraryUI.getFirstCommand();
+		this.inputFromInfile(choice1);
 
-		}
 		MusicLibraryUI.printSecond();
-		choice = MusicLibraryUI.getSecondCommand();
-		if(choice == "A" || choice == "a"){
+		String choice2 = MusicLibraryUI.getSecondCommand();
+		if(choice2 == "A" || choice2 == "a"){
 
 		}
 		else{
 
 		}
+		
 
 	}
 
-	}
+	
 
 
 }

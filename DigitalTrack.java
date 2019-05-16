@@ -1,6 +1,6 @@
 // DigitalTrack.java
 
-public abstract class DigitalTrack extends MusicTrack{
+public class DigitalTrack extends MusicTrack{
 
 	private String formatType = "Digital"; 
 	private String bitRate;
