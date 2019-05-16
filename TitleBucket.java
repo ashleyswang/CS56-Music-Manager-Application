@@ -26,10 +26,24 @@ public class TitleBucket implements BucketInterface{
 		while (trackName.compareTo(innerBucket.get(innerBucketIndex).getTitle()) > 0 ){
 			innerBucketIndex++;
 		}
-		// add at the index itemToAdd, will shift all subsequent elements one element down
-		innerBucket.add(innerBucketIndex, itemToAdd);
-	}
 
+		String addedArtistName = (itemToAdd.getArtist()).toLowerCase();
+		while (trackName.compareTo(innerBucket.get(innerBucketIndex).getTitle().toLowerCase()) == 0){
+
+			if (addedArtistName.compareTo(innerBucket.get(innerBucketIndex).getArtist().toLowerCase()) < 0){
+				innerBucket.add(innerBucketIndex, itemToAdd);
+				break;
+			} else {
+				innerBucketIndex++;
+			}
+		}
+		
+		if (trackName.compareTo(innerBucket.get(innerBucketIndex).getTitle().toLowerCase()) < 0){
+			// add at the index itemToAdd, will shift all subsequent elements one element down
+			innerBucket.add(innerBucketIndex, itemToAdd);
+		}
+	}
+	
 	public ArrayList<ArrayList<MusicTrack>> getBuckets(){
 		return titleBucket;
 	}
