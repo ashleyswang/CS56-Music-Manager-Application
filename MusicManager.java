@@ -1,14 +1,21 @@
 // MusicManager.java
-
+import java.util.Scanner;
 import java.util.ArrayList;
+import java.net.URL;
+import java.net.URLConnection;
+import java.io.IOException;
+import java.io.File;
+import java.io.FileNotFoundException;
 
 public class MusicManager{
 
-	private ArtistBucket artistList = new ArtistBucket();
-	private TitleBucket tracksList = new TitleBucket();
+	private ArtistBucket artistList;
+	private TitleBucket tracksList;
 
 	// Constructor
-	public MusicManager();
+	public MusicManager(){
+		artistList = new ArtistBucket();
+		tracksList = new TitleBucket();
 
 	/* Once all of the music track data is imported and organized in your 
 	application, the application will prompt the user to write the 
@@ -28,8 +35,30 @@ public class MusicManager{
 
 	*/ 
 
-	public start(){
+	public void start(){
 		/* the part that gets the file from the user */
+		Scanner input = new Scanner(System.in);
+		System.out.println("Welcome to the Music Library Application!");
+		MusicLibraryUI.printFirst();
+		String choice = MusicLibraryUI.getFirstCommand();
+		if(choice == "D" || choice == "d"){
+			try{
+
+			}
+		}
+		else{
+
+		}
+		MusicLibraryUI.printSecond();
+		choice = MusicLibraryUI.getSecondCommand();
+		if(choice == "A" || choice == "a"){
+
+		}
+		else{
+
+		}
+
+	}
 
 	}
 
