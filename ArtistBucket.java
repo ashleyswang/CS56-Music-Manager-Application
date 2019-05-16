@@ -32,4 +32,4 @@ public class ArtistBucket implements BucketInterface{
 		return artistBucket;
 	}
 
-}
+} 
