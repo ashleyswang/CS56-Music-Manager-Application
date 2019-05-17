@@ -38,5 +38,6 @@ public abstract class MusicTrack implements MusicTrackInterface{
 	// Returns the Music Track year.
 	public abstract String getAdditionalInfo();
 	// Returns a String containing additional information based on the type (Digital or Vinyl) of the Music Tracks.
+	public abstract void printTrack();
 
 }
