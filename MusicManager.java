@@ -120,7 +120,7 @@ public class MusicManager{
 				MusicTrack newTrack = createTrack(trackInfo);
 
 				artistList.addItem(newTrack);
-				tracksList.addItem(newTrack);
+				//tracksList.addItem(newTrack);
 				newTrack.printTrack();
 
 			}

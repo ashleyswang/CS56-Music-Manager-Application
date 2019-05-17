@@ -38,25 +38,42 @@ public class ArtistBucket implements BucketInterface{
 		int innerBucketIndex = 0;
 		if(innerBucket.size() != 0){
 			// while lexicographically name to be added is greater than the checked index
-			while (artistName.compareTo(innerBucket.get(innerBucketIndex).getArtist().toLowerCase()) > 0 ){
+			while (artistName.compareTo(innerBucket.get(innerBucketIndex).getArtist().toLowerCase()) > 0){
 				innerBucketIndex++;
+				if (innerBucket.size()-1 == innerBucketIndex){
+					innerBucket.add(itemToAdd);
+					break;
+				}
 			}
 			
 			String addedTrackName = (itemToAdd.getTitle()).toLowerCase();
 			while (artistName.compareTo(innerBucket.get(innerBucketIndex).getArtist().toLowerCase()) == 0){
 
 				if (addedTrackName.compareTo(innerBucket.get(innerBucketIndex).getTitle().toLowerCase()) < 0){
-					innerBucket.add(innerBucketIndex, itemToAdd);
+					if(innerBucketIndex == innerBucket.size()-1){
+						innerBucket.add(itemToAdd);
+					}else{
+						innerBucket.add(innerBucketIndex, itemToAdd);
+					}
 					break;
 				} else {
-					innerBucketIndex++;
+					// this is definitely not right bc i didn't actually think about anything and am just trying it for the lolz
+					if (innerBucketIndex == innerBucket.size()-1){
+						break;
+					} else {
+						innerBucketIndex++;
+					}
 				}
 			}
 			
 			if (artistName.compareTo(innerBucket.get(innerBucketIndex).getArtist().toLowerCase()) < 0){
 				// if names are not the same
 				// add at the index itemToAdd, will shift all subsequent elements one element down
-				innerBucket.add(innerBucketIndex, itemToAdd);
+				if(innerBucketIndex == innerBucket.size()-1){
+					innerBucket.add(itemToAdd);
+				}else{
+					innerBucket.add(innerBucketIndex, itemToAdd);
+				}
 			}
 		} else {
 			innerBucket.add(itemToAdd);
