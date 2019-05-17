@@ -20,6 +20,7 @@ public class VinylTrack extends MusicTrack{
 
 	// Getters
 	public String getAdditionalInfo(){ return (formatType+" "+diskRPM); }
+	
 	public void printTrack(){
 		System.out.print(title  + " ");
 		System.out.print(length + " "); 
