@@ -120,8 +120,8 @@ public class MusicManager{
 				MusicTrack newTrack = createTrack(trackInfo);
 
 				artistList.addItem(newTrack);
-				//tracksList.addItem(newTrack);
-				newTrack.printTrack();
+				tracksList.addItem(newTrack);
+				//newTrack.printTrack();
 
 			}
 		} catch (IOException e) {
@@ -157,12 +157,20 @@ public class MusicManager{
 
 		String choice1 = MusicLibraryUI.getFirstCommand();
 		this.inputFromInfile(choice1);
+		// artistList.printArtistBucket();
 
 		MusicLibraryUI.printSecond();
 		String choice2 = MusicLibraryUI.getSecondCommand();
-		while(!(choice2.equalsIgnoreCase("q"))){
-			this.outputToFile(choice2);
-		}	
+		while(true){
+			if(!(choice2.equalsIgnoreCase("q"))){
+				this.outputToFile(choice2);
+				MusicLibraryUI.getSecondCommand();
+			}
+			else{
+				break;
+			}
+		}
+		MusicLibraryUI.closeScanner();
 
 	}
 

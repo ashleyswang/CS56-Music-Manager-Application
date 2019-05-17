@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class MusicLibraryUI{
 
+	private static Scanner s = new Scanner(System.in);
+
 	public static void printFirst(){
 		System.out.print("Enter `D` to read the music file from your local disk or `W` to read the music file from the web: ");
 	}
@@ -11,12 +13,9 @@ public class MusicLibraryUI{
 	}
 
 	public static String getFirstCommand() {
-		Scanner s = new Scanner(System.in);
-		System.out.println("Enter Command");
 		while(true) {
 			String command = s.nextLine();
 			if(command.equalsIgnoreCase("w") || command.equalsIgnoreCase("d")){
-				s.close();
 				return command;
 			}
 			System.out.println("Invalid Input.");
@@ -25,16 +24,17 @@ public class MusicLibraryUI{
 	}
 
 	public static String getSecondCommand() {
-		Scanner s = new Scanner(System.in);
-		System.out.println("Enter Command");
 		while(true) {
 			String command = s.nextLine();
 			if(command.equalsIgnoreCase("a") || command.equalsIgnoreCase("t") || command.equalsIgnoreCase("q")){
-				s.close();
 				return command;
 			}
 			System.out.println("Invalid Input.");
 			printSecond();
 		}
+	}
+
+	public static void closeScanner(){
+		s.close();
 	}
 }

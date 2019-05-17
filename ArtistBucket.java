@@ -16,7 +16,7 @@ public class ArtistBucket implements BucketInterface{
 		for (int i = 0; i<artistBucket.size(); i++){
 			System.out.print(i+": ");
 			for (int j = 0; j < artistBucket.get(i).size(); j++){
-				System.out.print("* ");
+				System.out.print(artistBucket.get(i).get(j).getArtist()+" ");
 			}
 			System.out.println();
 		}
@@ -39,11 +39,11 @@ public class ArtistBucket implements BucketInterface{
 		if(innerBucket.size() != 0){
 			// while lexicographically name to be added is greater than the checked index
 			while (artistName.compareTo(innerBucket.get(innerBucketIndex).getArtist().toLowerCase()) > 0){
-				innerBucketIndex++;
 				if (innerBucket.size()-1 == innerBucketIndex){
 					innerBucket.add(itemToAdd);
 					break;
 				}
+				innerBucketIndex++;
 			}
 			
 			String addedTrackName = (itemToAdd.getTitle()).toLowerCase();
@@ -65,7 +65,7 @@ public class ArtistBucket implements BucketInterface{
 					}
 				}
 			}
-			
+
 			if (artistName.compareTo(innerBucket.get(innerBucketIndex).getArtist().toLowerCase()) < 0){
 				// if names are not the same
 				// add at the index itemToAdd, will shift all subsequent elements one element down
@@ -78,9 +78,6 @@ public class ArtistBucket implements BucketInterface{
 		} else {
 			innerBucket.add(itemToAdd);
 		}
-
-
-		//this.printArtistBucket();
 
 	}
 
