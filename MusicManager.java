@@ -37,6 +37,7 @@ public class MusicManager{
 	wants to sort the music library based on the Track name.
 
 	*/ 
+
 	private MusicTrack createTrack(String s){
 		// making the track object
 		Scanner trackAttributes = new Scanner(s);
@@ -91,18 +92,13 @@ public class MusicManager{
 			DigitalTrack newTrack = new DigitalTrack(tempTitle, tempLength, tempArtist,
 										tempAlbum, tempYear, tempAdditionalInfo);
 			//newTrack.printTrack();
-			System.out.print("Created: ");
-			newTrack.printTrack();
 			return newTrack;
 		} else {
 			VinylTrack newTrack = new VinylTrack(	tempTitle, tempLength, tempArtist,
 										tempAlbum, tempYear, tempAdditionalInfo);
 			//newTrack.printTrack();
-			System.out.print("Created: ");
-			newTrack.printTrack();
 			return newTrack;
 		}
-		
 	}
 
 	// taking the file and reading the input
@@ -122,39 +118,16 @@ public class MusicManager{
 			String trackInfo;
 			while(infile.hasNextLine()){
 				trackInfo = infile.nextLine();
-				System.out.println("Read:    "+trackInfo);
 				MusicTrack newTrack = createTrack(trackInfo);
 
 				artistList.addItem(newTrack);
-				//tracksList.addItem(newTrack);
-				System.out.print("Added:   ");
-				newTrack.printTrack();
+				tracksList.addItem(newTrack);
+				//newTrack.printTrack();
 
 			}
 		} catch (IOException e) {
 			e.toString();
 		}
-	}
-
-	private void outputToFile(String choice){
-		// if choice A output artistOutput.txt
-		OutputFile outputFile = new OutputFile();
-		ArrayList<ArrayList<MusicTrack>> outputBucket;
-		if(choice.equalsIgnoreCase("a")){
-			outputFile.open("artistOutput.txt");
-			outputBucket = artistList.getBuckets();
-		}
-		else{
-			outputFile.open("titleOutput.txt");
-			outputBucket = tracksList.getBuckets();
-		}
-		for(int i = 0; i < outputBucket.size(); i++){
-			ArrayList<MusicTrack> tracks = outputBucket.get(i);
-			for(int j = 0; j < tracks.size(); j++){
-				outputFile.writeItem(tracks.get(j));
-			}
-		}
-		outputFile.close();
 	}
 
 	public void start(){
@@ -167,15 +140,7 @@ public class MusicManager{
 		// artistList.printArtistBucket();
 
 		MusicLibraryUI.printSecond();
-		String choice2 = MusicLibraryUI.getSecondCommand();
-		while(true){
-			if(!(choice2.equalsIgnoreCase("q"))){
-				this.outputToFile(choice2);
-			}
-			else{
-				break;
-			}
-		}
+		MusicLibraryUI.getSecondCommand(artistList, tracksList);
 		MusicLibraryUI.closeScanner();
 
 	}
