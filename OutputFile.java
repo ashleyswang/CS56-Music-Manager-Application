@@ -15,6 +15,7 @@ public class OutputFile implements OutputFileInterface{
 		out.format("%-40s %-40s %-40s %-7s %-5s %-40s", 
 		 			"TITLE", "ARTIST","ALBUM", "LENGTH",
 		 			"YEAR", "ADDITIONAL_INFO");
+		out.println();
 	}
 	catch(Exception e){
 		System.out.println("Exception thrown: " + e);
