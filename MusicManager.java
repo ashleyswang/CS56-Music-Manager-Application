@@ -37,6 +37,7 @@ public class MusicManager{
 	wants to sort the music library based on the Track name.
 
 	*/ 
+
 	private MusicTrack createTrack(String s){
 		// making the track object
 		Scanner trackAttributes = new Scanner(s);
@@ -129,27 +130,6 @@ public class MusicManager{
 		}
 	}
 
-	private void outputToFile(String choice){
-		// if choice A output artistOutput.txt
-		OutputFile outputFile = new OutputFile();
-		ArrayList<ArrayList<MusicTrack>> outputBucket;
-		if(choice.equalsIgnoreCase("a")){
-			outputFile.open("artistOutput.txt");
-			outputBucket = artistList.getBuckets();
-		}
-		else{
-			outputFile.open("titleOutput.txt");
-			outputBucket = tracksList.getBuckets();
-		}
-		for(int i = 0; i < outputBucket.size(); i++){
-			ArrayList<MusicTrack> tracks = outputBucket.get(i);
-			for(int j = 0; j < tracks.size(); j++){
-				outputFile.writeItem(tracks.get(j));
-			}
-		}
-		outputFile.close();
-	}
-
 	public void start(){
 		/* the part that gets the file from the user */
 		System.out.println("Welcome to the Music Library Application!");
@@ -160,16 +140,7 @@ public class MusicManager{
 		// artistList.printArtistBucket();
 
 		MusicLibraryUI.printSecond();
-		String choice2 = MusicLibraryUI.getSecondCommand();
-		while(true){
-			if(!(choice2.equalsIgnoreCase("q"))){
-				this.outputToFile(choice2);
-				MusicLibraryUI.getSecondCommand();
-			}
-			else{
-				break;
-			}
-		}
+		MusicLibraryUI.getSecondCommand(artistList, tracksList);
 		MusicLibraryUI.closeScanner();
 
 	}

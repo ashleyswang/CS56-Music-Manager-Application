@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.ArrayList;
 
 public class MusicLibraryUI{
 
@@ -23,14 +24,41 @@ public class MusicLibraryUI{
 		}
 	}
 
-	public static String getSecondCommand() {
+	private static void outputToFile(String choice, ArtistBucket artistList, TitleBucket tracksList){
+		// if choice A output artistOutput.txt
+		OutputFile outputFile = new OutputFile();
+		ArrayList<ArrayList<MusicTrack>> outputBucket;
+		if(choice.equalsIgnoreCase("a")){
+			outputFile.open("artistOutput.txt");
+			outputBucket = artistList.getBuckets();
+		}
+		else{
+			outputFile.open("titleOutput.txt");
+			outputBucket = tracksList.getBuckets();
+		}
+		for(int i = 0; i < outputBucket.size(); i++){
+			ArrayList<MusicTrack> tracks = outputBucket.get(i);
+			for(int j = 0; j < tracks.size(); j++){
+				outputFile.writeItem(tracks.get(j));
+			}
+		}
+		outputFile.close();
+	}
+
+	public static void getSecondCommand(ArtistBucket artistList, TitleBucket tracksList) {
 		while(true) {
 			String command = s.nextLine();
-			if(command.equalsIgnoreCase("a") || command.equalsIgnoreCase("t") || command.equalsIgnoreCase("q")){
-				return command;
+			if(command.equalsIgnoreCase("a") || command.equalsIgnoreCase("t")){
+				outputToFile(command, artistList, tracksList);
+				printSecond();
 			}
-			System.out.println("Invalid Input.");
-			printSecond();
+			else if(command.equalsIgnoreCase("q")){
+				break;
+			}
+			else{	
+				System.out.println("Invalid Input.");
+				printSecond();
+			}
 		}
 	}
 
